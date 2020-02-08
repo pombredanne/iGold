@@ -13,6 +13,6 @@ Currently used for Bug Bounties. A work in progress.
 #### 5. Graudit for specific iOS secrets and code vulnerability signatures 
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
 #### 6. Identify and test access to cloud buckets 
-  [Test access to aws buckets](https://github.com/SherlocksHat/lucrative-greps)
+  [Test access to aws buckets](https://github.com/SherlocksHat/aws-s3-objects-test/)
 #### 7. Detect-secrets audit using regex detection
   TBC
