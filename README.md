@@ -9,7 +9,7 @@ A collection of scripts used to workflow/automate the download and audit of iOS 
   [Firebase discovery and test](https://github.com/SherlocksHat/firebase-search-connect)
 #### 4. Automatic discovery and spidering of embedded urls, including APIs, media files and more. 
   [Asset-Discovery](https://github.com/SherlocksHat/iOS-grep-master)
-#### 5. graudit for specific iOS secrets and code vulnerability signatures 
+#### 5. Graudit for specific iOS secrets and code vulnerability signatures 
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
-#### 6. detect-secrets audit using regex detection
+#### 6. Detect-secrets audit using regex detection
   TBC
