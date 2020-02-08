@@ -12,5 +12,7 @@ Currently used for Bug Bounties. A work in progress.
   [Asset-Discovery](https://github.com/SherlocksHat/iOS-grep-master)
 #### 5. Graudit for specific iOS secrets and code vulnerability signatures 
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
-#### 6. Detect-secrets audit using regex detection
+#### 6. Identify and test access to cloud buckets 
+  [Test access to aws buckets](https://github.com/SherlocksHat/lucrative-greps)
+#### 7. Detect-secrets audit using regex detection
   TBC
