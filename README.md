@@ -1,7 +1,7 @@
 # iVestigate (iOS app auditing)
 A collection of scripts used to workflow/automate the download and audit of iOS apps en-mass. Used for Bug Bounties. 
 
-* automated bulk download of iOS apps
+*## automated bulk download of iOS apps
 ### 2 bulk conversion of iOS apps to readable formats (ie. class dumping, plist conversion)
 # 3 automatic discovery and testing of firebase databases. 
 # 4 automatic discovery and spidering of embedded urls, including APIs, media files and more. 
