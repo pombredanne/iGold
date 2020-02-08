@@ -1,5 +1,6 @@
 # iVestigate (iOS app auditing)
-A collection of scripts used to workflow/automate the download and audit of iOS apps en-mass. Used for Bug Bounties. 
+A collection of scripts used to workflow/automate the download and audit of iOS apps en-mass. 
+Currently used for Bug Bounties. A work in progress. 
 
 #### 1. Automated bulk download of iOS apps
   [Download bulk ios apps](https://github.com/SherlocksHat/bulk-download-ios-apps)
