@@ -10,12 +10,10 @@ Currently used for Bug Bounties. A work in progress.
   [Firebase discovery and test](https://github.com/SherlocksHat/firebase-search-connect)
 #### 4. Automatic discovery and spidering of embedded urls, including APIs, media files and more. 
   [Asset-Discovery](https://github.com/SherlocksHat/iOS-grep-master)
-#### 5. Graudit for specific iOS secrets and code vulnerability signatures 
-  [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
-#### 6. Identify and test access to cloud buckets 
+#### 5. Identify and test access to cloud buckets 
   [Test access to aws buckets](https://github.com/SherlocksHat/aws-s3-objects-test/)
-#### 7. Detect-secrets audit using regex detection
+#### 6. Detect-secrets audit using regex detection
   TBC
-#### 8. decompile and search flash files
+#### 7. decompile and search flash files
 sudo apt-get install swfmill
 swfmill swf2xml movie.swf movie.xml
