@@ -17,3 +17,7 @@ Currently used for Bug Bounties. A work in progress.
 #### 7. decompile and search flash files
 sudo apt-get install swfmill
 swfmill swf2xml movie.swf movie.xml
+
+#### 8. interacting with Slack hooks
+curl -X POST https://hooks.slack.com/services/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 -H "Content-type: application/json" --data "{'text': 'Please note this hash: 56446d168792f442211c31390348f0d2'}"
+
