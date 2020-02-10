@@ -12,6 +12,7 @@ Currently used for Bug Bounties. A work in progress.
   [Asset-Discovery](https://github.com/SherlocksHat/iOS-grep-master)
 #### 5. Identify and test access to cloud buckets 
   [Test access to aws buckets](https://github.com/SherlocksHat/aws-s3-objects-test/)
+  or just use aws-cli - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/AWS%20Amazon%20Bucket%20S3
 #### 6. Detect-secrets audit using regex detection
   TBC
 #### 7. decompile and search flash files
