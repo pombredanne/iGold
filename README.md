@@ -1,11 +1,10 @@
 # iGold - finding Gold in iOS app's
 
-A collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en masse. 
+A work-in-progress collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en masse. 
 
 >**Use case 1:** During the day, if I see a new bounty program, I can download the iOS app onto my phone which automatically triggers a process at home to download, decompile the app, test database connections, etc. all while I'm out during the day. 
 
 >**Use case 2:** Download hundreds of apps from various bounty platform's. As they are downloaded, they are automatically decompiled and tested, en masse. 
-
 
 Obviously don't use these scripts on assets which you are not authorised to test. 
 
@@ -24,7 +23,7 @@ There is a number of pre-requisite tools that needs to be installed first, [here
 
  * Bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion) - [decompile/extract iOS app data](https://github.com/SherlocksHat/iGold/blob/master/scripts/2-iOS-bulk-conversion.sh)
  
-## 3. Get linked files
+## 3. Get associated assets
 
  * grep and wget urls from extracted app files (greppable files like .js, flash, .zip, .gz, docx) 
  
