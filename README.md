@@ -18,11 +18,13 @@ Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/m
 
  * Bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion) - [decompile/extract iOS app data](https://github.com/SherlocksHat/iGold/blob/master/scripts/2-iOS-bulk-conversion.sh)
  
+## 3. Get linked files
+
+ * grep and wget urls from extracted app files (greppable files like .js, flash, .zip, .gz, docx) 
+ 
  * Decompile flash files - (install: sudo apt-get install swfmill) (run: swfmill swf2xml movie.swf movie.xml)
 
-## 3. Expanding surface area
-
- * grep and wget urls from extracted app files (greppable files like .js) 
+## 4. Discover secrets
 
  * Discovery of secrets, vulnerable code and lucrative endpoints - [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
 
