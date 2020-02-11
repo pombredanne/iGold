@@ -5,7 +5,7 @@ Obviously don't use these scripts on assets which you are not authorised to test
 
 There is a number of pre-requisite tools that needs to be installed first, [here](https://github.com/SherlocksHat/iGold/blob/master/install.sh). 
 
-## App bulk download script
+## Bulk app download
 
 #### 1. automated bulk download of iOS apps
    [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
@@ -15,7 +15,7 @@ There is a number of pre-requisite tools that needs to be installed first, [here
    * Pre-req's; 
      * jailbroken iPhone which connects to your Mac via proxied ssh.
      
-## App extraction and decompiling scripts
+## Extraction and decompiling
 
 #### 2. bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion)
   [convert to readable format](https://github.com/SherlocksHat/iGold/blob/master/scripts/2-iOS-bulk-conversion.sh)
