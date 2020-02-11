@@ -25,19 +25,15 @@ There is a number of pre-requisite tools that needs to be installed first, [here
  
 ## 3. Get associated assets
 
- * grep and wget urls from extracted app files (greppable files like .js, flash, .zip, .gz, docx) 
+ * grep urls from extracted app files (greppable files like .js, flash, .zip, .gz, docx) and download them for further analysis. [Discover and download more greppable data](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
  
- * Decompile flash files - (install: sudo apt-get install swfmill) (run: swfmill swf2xml movie.swf movie.xml)
+ * [Decompile flash files](https://github.com/SherlocksHat/iGold/blob/master/scripts/4-extract-flash.sh)
 
 ## 4. Discover secrets
 
  * Discovery of secrets, vulnerable code and lucrative endpoints - [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
-
- * Detect-secrets audit using regex detection (review Yelps regex for signatures and add to the discovery point above)
  
  ## 5. Automatic testing
  * Automatic discovery and testing of Firebase databases - [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
   
  * Discovery and download of s3 bucket objects (an alternative to aws cli-tools when cli doesn't do what you want. [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). 
- 
- * Run URLs through otxurls and waybackurls and spider them?
