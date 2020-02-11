@@ -7,8 +7,8 @@ A collection of scripts used to workflow/automate the download and discovery of 
     * run on Mac OS.
     * run as a crontab so that all you need to do is install an app on your iPhone and the rest is taken care off. 
     * Pre-req's; 
-     * jailbroken iPhone which connects to your Mac via proxied ssh.
-     * npm install -g bagbak
+      * jailbroken iPhone which connects to your Mac via proxied ssh.
+      * npm install -g bagbak
     
 #### 2. Bulk conversion of iOS apps to readable formats (ie. class dumping, plist conversion)
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
