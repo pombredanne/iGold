@@ -7,7 +7,7 @@ There is a number of pre-requisite tools that needs to be installed first, [here
 
 ## Bulk download iOS app's
 
-   [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
+Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
   * This script is designed to
     * run on Mac OS.
     * run as a crontab so that all you need to do is install an app on your iPhone and the rest is taken care off. 
