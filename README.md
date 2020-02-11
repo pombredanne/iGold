@@ -16,28 +16,19 @@ Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/m
      
 ## 2. Extraction and decompiling app data
 
-#### A. bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion)
-  * [convert to readable format](https://github.com/SherlocksHat/iGold/blob/master/scripts/2-iOS-bulk-conversion.sh)
+ * Bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion) - [decompile/extract iOS app data](https://github.com/SherlocksHat/iGold/blob/master/scripts/2-iOS-bulk-conversion.sh)
  
-#### B. decompile flash files
-* sudo apt-get install swfmill
-* swfmill swf2xml movie.swf movie.xml
+ * Decompile flash files - (install: sudo apt-get install swfmill) (run: swfmill swf2xml movie.swf movie.xml)
 
 ## 3. Expanding surface area
 
-#### A. grep and wget urls from extracted app files (greppable files like .js)
-* 
+ * grep and wget urls from extracted app files (greppable files like .js) 
 
-## 4. Discovery of secrets and vulnerable code
+ * Discovery of secrets, vulnerable code and lucrative endpoints - [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
 
-#### A. discovery of secrets and lucrative endpoints. 
- *  [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
+ * Detect-secrets audit using regex detection (yelp detect-secrets)
+ 
+ ## 4. Automatic testing
+ * Automatic discovery and testing of Firebase databases - [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
   
-#### B. Detect-secrets audit using regex detection
-*   yelps detect secrets
-  
-#### C. automatic discovery and testing of Firebase databases. 
-*   [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
-  
-#### D. discovery and download of s3 bucket objects. (alternative to cli-tools)
-*   [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). This is an alternative to aws cli-tools when cli doesn't do what you want. 
+ * Discovery and download of s3 bucket objects (an alternative to aws cli-tools when cli doesn't do what you want. [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). 
