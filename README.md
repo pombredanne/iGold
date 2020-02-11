@@ -4,7 +4,7 @@ A collection of scripts used to workflow/automate the download and discovery of 
 #### 1. Automated bulk download of iOS apps
   [Download bulk ios apps](https://github.com/SherlocksHat/bulk-download-ios-apps)
   * This script is designed to
-  ** run on Mac OS.
+  '* run on Mac OS.
   ** run as a crontab so that all you need to do is install an app on your iPhone and the rest is taken care off. 
 #### 2. Bulk conversion of iOS apps to readable formats (ie. class dumping, plist conversion)
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
