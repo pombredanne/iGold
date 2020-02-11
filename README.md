@@ -34,4 +34,4 @@ There is a number of pre-requisite tools that needs to be installed first, [here
  ## 5. Automatic testing
  * Automatic discovery and testing of Firebase databases - [firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
   
- * Discovery and download of s3 bucket objects - an alternative to aws cli-tools when cli doesn't do what you want. [cli tools alternative](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh).
+ * Discovery and download of s3 bucket objects - an alternative to aws cli-tools when cli doesn't do what you want - [cli tools alternative](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh).
