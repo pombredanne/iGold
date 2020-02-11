@@ -1,5 +1,7 @@
 !#/bin/bash
 
+#NOT COMPLETED. Below is a list of tools required to run iGold scripts. 
+
 #firebase testing
 sudo pip3 install pyrebase
 
