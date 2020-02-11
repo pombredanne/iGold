@@ -26,8 +26,6 @@ There is a number of pre-requisite tools that needs to be installed first, [here
 ## 3. Get associated assets
 
  * grep urls from extracted app files (greppable files like .js, flash, .zip, .gz, docx) and download them for further analysis. [discover and download more greppable data](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
- 
- * [decompile flash files](https://github.com/SherlocksHat/iGold/blob/master/scripts/4-extract-flash.sh)
 
 ## 4. Discover secrets
 
