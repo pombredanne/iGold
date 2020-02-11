@@ -1,8 +1,10 @@
-# iGold - iOS app auditing for Bug Bounties
+# iGold - finding Gold in iOS app's
 A collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en-mass. 
 
 #### 1. Automated bulk download of iOS apps
   [Download bulk ios apps](https://github.com/SherlocksHat/bulk-download-ios-apps)
+  * This script should be run on a Mac.
+  * Setup as a crontab so that all you need to do is install an app on your iPhone and the rest is taken care off. 
 #### 2. Bulk conversion of iOS apps to readable formats (ie. class dumping, plist conversion)
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
 #### 3. Automatic discovery and testing of firebase databases. 
