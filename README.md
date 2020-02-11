@@ -5,7 +5,7 @@ Obviously don't use these scripts on assets which you are not authorised to test
 
 There is a number of pre-requisite tools that needs to be installed first, [here](https://github.com/SherlocksHat/iGold/blob/master/install.sh). 
 
-## bulk app download
+## Bulk download iOS app's
 
    [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
   * This script is designed to
