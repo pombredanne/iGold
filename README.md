@@ -35,8 +35,8 @@ swfmill swf2xml movie.swf movie.xml
 #### (b) Detect-secrets audit using regex detection
   yelps detect secrets
   
-  #### (b) automatic discovery and testing of Firebase databases. 
+#### (c) automatic discovery and testing of Firebase databases. 
   [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
   
-#### (c) discovery and download of s3 bucket objects. (alternative to cli-tools)
+#### (d) discovery and download of s3 bucket objects. (alternative to cli-tools)
   [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). This is an alternative to aws cli-tools when cli doesn't do what you want. 
