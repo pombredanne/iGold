@@ -9,7 +9,16 @@ mkdir -p grep-master-data/{index,scripts,db,download/{media,greppable}}
 echo -e '\.txt
 \.html
 \.htm
-\.js' >> grep-master-data/db/greppable.lst
+\.js
+\.tgz
+\.gz
+\.xls
+\.xlsx
+\.pdf
+\.doc
+\.ppt
+\.docx
+\.pptx' >> grep-master-data/db/greppable.lst
 
 #build secrets list
 echo -e 'token
@@ -51,18 +60,9 @@ docs.google.com
 onedrive.live.com' >> grep-master-data/db/cloud-buckets.lst
 
 #build media list
-echo -e '\.doc
-\.ppt
-\.docx
-\.pptx
-\.exe
-\.xls
-\.xlsx
-\.pdf
+echo -e '\.exe
 \.png
 \.jpg
-\.tgz
-\.gz
 \.mp4
 \.mov' >> grep-master-data/db/mediafiletypes.lst
 
