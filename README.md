@@ -2,10 +2,14 @@
 A collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en-mass. 
 
 #### 1. Automated bulk download of iOS apps
-  [Download bulk ios apps](https://github.com/SherlocksHat/bulk-download-ios-apps)
+  [Download bulk ios apps](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
   * This script is designed to
     * run on Mac OS.
     * run as a crontab so that all you need to do is install an app on your iPhone and the rest is taken care off. 
+    * Pre-req's; 
+     * jailbroken iPhone which connects to your Mac via proxied ssh.
+     * npm install -g bagbak
+    
 #### 2. Bulk conversion of iOS apps to readable formats (ie. class dumping, plist conversion)
   [Convert to readable format](https://github.com/SherlocksHat/iOSGraudit)
 #### 3. Automatic discovery and testing of firebase databases. 
