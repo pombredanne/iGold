@@ -1,8 +1,8 @@
 # iGold - finding Gold in iOS app's
 
->Use case 1: During the day, if I see a new bounty program, I can download the iOS app onto my phone which automatically triggers a process at home to download, decompile the app, test database connections, etc. all while I'm out during the day. 
+>**Use case 1:** During the day, if I see a new bounty program, I can download the iOS app onto my phone which automatically triggers a process at home to download, decompile the app, test database connections, etc. all while I'm out during the day. 
 
->Use case 2: Download hundreds of apps from various bounty platform's. As they are downloaded, they are automatically decompiled and tested, en-mass. 
+>**Use case 2:** Download hundreds of apps from various bounty platform's. As they are downloaded, they are automatically decompiled and tested, en-mass. 
 
 A collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en-mass. 
 
