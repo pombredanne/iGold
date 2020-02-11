@@ -6,7 +6,7 @@ Obviously don't use these scripts on assets which you are not authorised to test
 There is a number of pre-requisite tools that needs to be installed first, [here](https://github.com/SherlocksHat/iGold/blob/master/install.sh). 
 
 #### 1. Automated bulk download of iOS apps
-  [Download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
+    [Download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
   * This script is designed to
     * run on Mac OS.
     * run as a crontab so that all you need to do is install an app on your iPhone and the rest is taken care off. 
