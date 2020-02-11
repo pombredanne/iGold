@@ -30,7 +30,9 @@ Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/m
 
  * Detect-secrets audit using regex detection (review Yelps regex for signatures and add to the discovery point above)
  
- ## 4. Automatic testing
+ ## 5. Automatic testing
  * Automatic discovery and testing of Firebase databases - [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
   
  * Discovery and download of s3 bucket objects (an alternative to aws cli-tools when cli doesn't do what you want. [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). 
+ 
+ * Run URLs through otxurls and waybackurls
