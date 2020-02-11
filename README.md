@@ -16,23 +16,23 @@ Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/m
      
 ## 2. Extraction and decompiling app data
 
-#### a) bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion)
+#### (a) bulk conversion of iOS apps to greppable formats (ie. class dumping, plist conversion)
   [convert to readable format](https://github.com/SherlocksHat/iGold/blob/master/scripts/2-iOS-bulk-conversion.sh)
  
-#### b) automatic discovery and testing of Firebase databases. 
+#### (b) automatic discovery and testing of Firebase databases. 
   [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
   
-#### c) discovery and download of s3 bucket objects. (alternative to cli-tools)
+#### (c) discovery and download of s3 bucket objects. (alternative to cli-tools)
   [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). This is an alternative to aws cli-tools when cli doesn't do what you want. 
   
-#### d) decompile and search flash files
+#### (d) decompile and search flash files
 sudo apt-get install swfmill
 swfmill swf2xml movie.swf movie.xml
 
 ## 3. Discovery of secrets and vulnerable code
 
-#### a) discovery of secrets and lucrative endpoints. 
+#### (a) discovery of secrets and lucrative endpoints. 
   [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
   
-#### b) Detect-secrets audit using regex detection
+#### (b) Detect-secrets audit using regex detection
   yelps detect secrets
