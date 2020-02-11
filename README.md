@@ -1,5 +1,6 @@
 # iGold - finding Gold in iOS app's
 A collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en-mass. 
+Obviously don't use these scripts on assets which you are not authoirised to test. 
 
 #### 1. Automated bulk download of iOS apps
   [Download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/master/scripts/1-iOS-bulk-regular-download.sh)
