@@ -35,4 +35,4 @@ Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/m
   
  * Discovery and download of s3 bucket objects (an alternative to aws cli-tools when cli doesn't do what you want. [SherlocksHat-cli tools](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-s3-bucket-list-objects.sh). 
  
- * Run URLs through otxurls and waybackurls
+ * Run URLs through otxurls and waybackurls and spider them?
