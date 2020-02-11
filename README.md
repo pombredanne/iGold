@@ -26,7 +26,7 @@ Script: [download iOS apps in bulk](https://github.com/SherlocksHat/iGold/blob/m
 
  * Discovery of secrets, vulnerable code and lucrative endpoints - [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
 
- * Detect-secrets audit using regex detection (yelp detect-secrets)
+ * Detect-secrets audit using regex detection (review Yelps regex for signatures and add to the discovery point above)
  
  ## 4. Automatic testing
  * Automatic discovery and testing of Firebase databases - [Firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-firebase-discover-test.sh)
