@@ -1,5 +1,5 @@
-# iGold - iOS payloads
-A collection of scripts used to workflow/automate the download and audit of iOS apps en-mass. 
+# iGold - iOS app auditing for Bug Bounties
+A collection of scripts used to workflow/automate the download and discovery of bounty leads in iOS apps, en-mass. 
 
 #### 1. Automated bulk download of iOS apps
   [Download bulk ios apps](https://github.com/SherlocksHat/bulk-download-ios-apps)
