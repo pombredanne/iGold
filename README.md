@@ -26,8 +26,9 @@ There is a number of pre-requisite tools that needs to be installed first, [here
 ## 3. Get associated assets
 
  * grep urls from extracted app files (greppable files like .js, flash, .zip, .gz, docx) and download them for further analysis. [discover and download more greppable data](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
-
-## 4. Discover secrets
+ * list ATS domain exceptions for further analysis - [list-ATS-domain-exceptions.sh](https://github.com/SherlocksHat/iGold/blob/master/scripts/7-list-ATS-domain-exceptions.sh)
+ 
+ ## 4. Discover secrets
 
  * Discovery of secrets, vulnerable code and lucrative endpoints - [secrets-discovery](https://github.com/SherlocksHat/iGold/blob/master/scripts/6-interesting-urls.sh)
  
