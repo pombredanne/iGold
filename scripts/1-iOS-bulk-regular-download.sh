@@ -6,7 +6,7 @@ export DISPLAY=:0.0
 
 #so that cron can run in the correct directory
 
-cd /Users/michael/Documents/
+cd ~/Documents/ #replace with working directory
 
 #error check - is iPhone available? 
 
