@@ -19,12 +19,16 @@ echo -e "                                    			COMPLETED\n"
 ((dc++))
 echo -e "   ${fontbold}[$dc/$tn]${fontnormal} Indexing extracted iOS app directory		STARTED" 
 
+#find all plist files
 find "$folder" -name '*plist' >> "$folder"-audit/index/plist-files.lst
+#find all binaries
 find "$folder" -type f -exec file -i '{}' \; | grep 'charset=binary' | grep -vE "(.plist|.png|.gz|.ttf)" | cut -f1 -d":" >> "$folder"-audit/index/binaries.lst
+#find all executables
 find "$folder" -type f -exec file -i '{}' \; | grep 'application/x-mach-binary' | cut -f1 -d":"  >> "$folder"-audit/index/executables.lst
+#find everything else
 find "$folder" -type f -exec file -i '{}' \; | grep -vE "(.png|.gz|.ttf|x-mach-binary|charset=binary)" | cut -f1 -d":" >> "$folder"-audit/index/other.lst
+#find signatures
 find signatures -type f >> "$folder"-audit/index/signatures.lst
-
 
 echo -e "                                    			COMPLETED\n"
 ######################################
