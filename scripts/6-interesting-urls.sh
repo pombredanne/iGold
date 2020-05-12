@@ -57,7 +57,9 @@ googleusercontent
 ftp
 smb
 docs.google.com
-onedrive.live.com' >> grep-master-data/db/cloud-buckets.lst
+onedrive.live.com
+storage.googleapis.com
+appspot.com' >> grep-master-data/db/cloud-buckets.lst
 
 #build media list
 echo -e '\.exe
