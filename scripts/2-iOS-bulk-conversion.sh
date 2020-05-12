@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#this script finds and converts the following to greppable format: plist files (xml), binaries (strings), executables (class dumping)
+
 fontbold=$(tput bold)
 fontnormal=$(tput sgr0)
 tn=8
