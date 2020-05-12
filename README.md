@@ -30,8 +30,8 @@ There is a number of pre-requisite tools that needs to be installed first, [here
  
  ## 5. Automatic testing
  * Automatic discovery and testing of Firebase databases - [firebase discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/4-firebase-discover-test.sh)
- * Automatic discovery and testing of Youtube and Google Maps API keys. [Youtube & Maps API discovery and test] (https://github.com/SherlocksHat/iGold/blob/master/scripts/5-test-google-apis.sh)
+ * Automatic discovery and testing of Youtube and Google Maps API keys. [Youtube & Maps API discovery and test](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-test-google-apis.sh)
   
   ## 6. Other helpful hacks
  * Search list and display all plist files [plist file display](https://github.com/SherlocksHat/iGold/blob/master/scripts/8-search-plist-files.sh).
- * List of API Key regex to search through mobile apps for [api key regex] (https://github.com/SherlocksHat/iGold/blob/master/scripts/key-regex.lst)
+ * List of API Key regex to search through mobile apps for [api key regex](https://github.com/SherlocksHat/iGold/blob/master/scripts/key-regex.lst)
