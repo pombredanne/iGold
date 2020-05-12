@@ -1,10 +1,12 @@
 #!/bin/bash
 
+#this should be run on a MacOS, as bagbak only connects to iPhones on MacOS
+
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:home/Documents
 
-export DISPLAY=:0.0
+#incase its used as a crontab
 
-#so that cron can run in the correct directory
+export DISPLAY=:0.0 
 
 cd ~/Documents/ #replace with working directory
 
