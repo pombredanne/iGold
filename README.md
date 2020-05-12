@@ -35,4 +35,4 @@ These scripts, grep for specific API keys, and then connects to those services w
   
   ## 6. Other helpful hacks
  * [Search list and display all plist files](https://github.com/SherlocksHat/iGold/blob/master/scripts/8-search-plist-files.sh).
- * [API Key regex to search through mobile apps](https://github.com/SherlocksHat/iGold/blob/master/scripts/key-regex.lst)
+ * [List of API key regex which can be used to search through mobile app data](https://github.com/SherlocksHat/iGold/blob/master/scripts/key-regex.lst)
