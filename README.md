@@ -28,7 +28,8 @@ There is a number of pre-requisite tools that needs to be installed first, [here
  * Oftern urls within app binaries can unwittlingly contain tokens or secrets. This script with grep urls from extracted app files, and highlight URLS worth investgiating further.  [discover and download more greppable data](https://github.com/SherlocksHat/iGold/blob/master/scripts/3-url-secrets.sh)
  * list ATS domain exceptions for further analysis (see ATS exceptions in the OWASP MSTG for more info) - [list-ATS-domain-exceptions](https://github.com/SherlocksHat/iGold/blob/master/scripts/7-list-ATS-domain-exceptions.sh)
  
- ## 5. Automatic testing (grep, discover API Key & test service)
+ ## 5. Automatic testing
+These scripts, grep for specific API keys, and then connects to those services when a key is found to look for data
  * [Firebase databases](https://github.com/SherlocksHat/iGold/blob/master/scripts/4-firebase-discover-test.sh)
  * [Youtube & Google Maps](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-test-google-apis.sh)
   
