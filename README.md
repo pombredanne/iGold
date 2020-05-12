@@ -34,5 +34,5 @@ These scripts, grep for specific API keys, and then connects to those services w
  * [Youtube & Google Maps](https://github.com/SherlocksHat/iGold/blob/master/scripts/5-test-google-apis.sh)
   
   ## 6. Other helpful hacks
- * Search list and display all plist files [plist file display](https://github.com/SherlocksHat/iGold/blob/master/scripts/8-search-plist-files.sh).
- * List of API Key regex to search through mobile apps for [api key regex](https://github.com/SherlocksHat/iGold/blob/master/scripts/key-regex.lst)
+ * [Search list and display all plist files](https://github.com/SherlocksHat/iGold/blob/master/scripts/8-search-plist-files.sh).
+ * [API Key regex to search through mobile apps](https://github.com/SherlocksHat/iGold/blob/master/scripts/key-regex.lst)
